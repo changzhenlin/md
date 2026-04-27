@@ -1,7 +1,7 @@
 ### 阶段 1：项目初始化
 
 1. **创建项目目录** 并进入根目录。
-2. 帮我初始化 Git 仓库（命令：`git init`）。
+2. 初始化 Git 仓库（命令：`git init`）。
 3. 创建核心文件夹：
    - `memory-bank/`（存放所有核心文档，作为持久化上下文）
    - `docs/`（可选，用于规划、设计等额外文档）
@@ -37,7 +37,7 @@
 
 1. **生成 CLAUDE.md（AI 行为规范文件）**
    - **AI 生成**：部分生成，之后人工强化。
-   - 在 Claude Code 会话中执行 `/init`，让它基于 `prd.md`、`tech-stack.md` 和 `implementation-plan.md` 自动生成或更新中文版 `CLAUDE.md`。
+   - 在 Claude Code 会话中执行 `/init`，让它基于 `prd.md`、`tech-stack.md` 和 `implementation-plan.md` 自动生成中文版 `CLAUDE.md`。
    - **您的责任**：打开 `CLAUDE.md`，补充或强化以下核心规则（参考 Vibe Coding 模板）：
      - 必须始终先阅读 `memory-bank/prd.md` 和 `memory-bank/architecture.md` 和 `memory-bank/progress.md` 后再写代码。
      - 一次只处理一个模块/功能。
